@@ -212,6 +212,8 @@ strong {
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
+
+
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -473,6 +475,7 @@ strong {
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
+
 .hero-section {
   position: relative;
   overflow: hidden;
@@ -796,6 +799,8 @@ strong {
 /*---------------------------------------
   CUSTOM FORM               
 -----------------------------------------*/
+
+
 .custom-form .form-control {
   color: var(--p-color);
   margin-bottom: 24px;
@@ -1033,3 +1038,28 @@ strong {
       height: 300px !important;
     } 
   }
+
+ #tiendaPincha {
+     opacity: 0.7;
+     /* Establece la opacidad inicial */
+     transition: opacity 0.3s;
+     /* Agrega una transición suave */
+ }
+
+ #tiendaPincha:hover {
+     opacity: 1;
+     /* Cambia la opacidad al pasar el mouse por encima */
+ }
+
+ #nuestraHistoria {
+     opacity: 0.7;
+     /* Establece la opacidad inicial */
+     transition: opacity 0.3s;
+     /* Agrega una transición suave */
+ }
+
+ #nuestraHistoria:hover {
+     opacity: 1;
+     /* Cambia la opacidad al pasar el mouse por encima */
+ }
+
