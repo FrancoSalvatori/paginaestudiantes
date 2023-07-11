@@ -1024,6 +1024,7 @@ strong {
   h5 {
     font-size: 20px;
   }
+  }
 
 
 
@@ -1032,17 +1033,3 @@ strong {
       height: 300px !important;
     } 
   }
-
-  .text-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ajusta la altura según sea necesario */
-  }
-  
-  /* 
-  Investigar sobre
-  1) Breakpoints y media queries (que hacen)
-  2) Adaptar las imagenes con lo visto en 1) para que queden con un tamaño copado
-  */
-}
